@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="app_name">KISS launcher</string>
+    <string name="activity_setting">Ρυθμίσεις KISS</string>
+    <string name="ui_search_hint">Αναζήτησε εφαρμογές, επαφές…</string>
+    <string name="ui_item_search">Αναζήτησε</string>
+    <string name="ui_item_phone">Κάλεσε</string>
+    <string name="ui_item_contact_hint_message">Μήνυμα</string>
+    <string name="ui_item_contact_hint_call">Κλήση</string>
+
+    <string name="title_ui">Ρυθμίσεις Διεπαφής</string>
+    <string name="title_history">Ρυθμίσεις Ιστορικού</string>
+    <string name="title_providers">Επιλογή Πηγών</string>
+    <string name="menu_settings">Ρυθμίσεις Συσκευής</string>
+    <string name="menu_preferences">Ρυθμίσεις KISS</string>
+    <string name="no_favorites">Προσωρινή έλλειψη αγαπημένων. Θα εμφανιστούν με την περαιτέρω χρήση της εφαρμογής.</string>
+
+    <string name="ui_empty_1_sub">Εφαρμογές, επαφές, ρυθμίσεις</string>
+    <string name="ui_empty_2_sub">Για γρήγορη πρόσβαση</string>
+    <string name="contacts_desc">Αναζήτηση στις Επαφές</string>
+    <string name="contacts_name">Επαφές</string>
+
+    <string name="ui_empty_3">Γρήγορη πρόσβαση στις αγαπημένες σου εφαρμογές</string>
+    <string name="ui_empty_3_sub">το KISS μαθαίνει απο τις συνήθειες σου</string>
+
+    </resources>
