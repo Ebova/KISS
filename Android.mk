@@ -9,10 +9,10 @@ module_build := $(module_root)/$(module_dir)/build
 module_apk := build/outputs/apk/$(LOCAL_MODULE)-release-unsigned.apk
 
 $(module_root)/$(module_dir)/$(module_apk):
-    rm -Rf $(module_build)
-    mkdir -p $(module_out)
-    ln -s $(module_out) $(module_build)
-    cd $(module_root)/$(module_dir) && gradle assembleRelease
+	rm -Rf $(module_build)
+	mkdir -p $(module_out)
+	ln -s $(module_out) $(module_build)
+	cd $(module_root)/$(module_dir) && gradle assembleRelease
 
 LOCAL_CERTIFICATE := platform
 LOCAL_SRC_FILES := $(module_dir)/$(module_apk)
