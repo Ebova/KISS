@@ -3,7 +3,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := KISS
 
 module_root := $(LOCAL_PATH)
-module_dir := KISS
+module_dir := .
 module_out := $(OUT_DIR)/target/common/obj/apps/$(LOCAL_MODULE)_intermediates
 module_build := $(module_root)/$(module_dir)/build
 module_apk := build/outputs/apk/$(LOCAL_MODULE)-release-unsigned.apk
